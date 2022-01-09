@@ -6,8 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo</title>
     <link rel="icon" type="image/png" href="/icons8-puzzle-50.png">
+    <script src="https://kit.fontawesome.com/6206d26202.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/styles/style.css">
 </head>
 <body>
-    <h1>This will be a todo app</h1>
+    <div class="wrapper">
+        <header>TODO</header>
+        <div class="input-field">
+            <input type="text" placeholder="New Todo">
+            <button><i class="fas fa-plus-square"></i></button>
+        </div>
+            
+        <ul class="todo-list">
+            <li>Shopping for kids <span><i class="fas fa-trash-alt"></i></span></li>
+            <li>Going for walk <span><i class="fas fa-trash-alt"></i></span></li>
+            <li>playing baseball <span><i class=   "fas fa-trash-alt"></i></span></li>
+            <li>Going for walk <span><i class="fas fa-trash-alt"></i></span></li>
+            <li>playing baseball <span><i class="fas fa-trash-alt"></i></span></li>
+            
+        </ul>
+        <div class="footer">
+            <p>You have 3 pending task </p>
+            <button>Clear All</button>
+        </div>
+    </div>
 </body>
 </html>
